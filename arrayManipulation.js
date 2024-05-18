@@ -10,8 +10,18 @@ function processArray(nums) {
     }
 }
 
+function formatArrayStrings(strArray,numbs){
+for(i =0 ;i<strArray.length;i++){
+    if(numbs[i]%2 === 0){
+        strArray[i]=strArray[i].toUpperCase();
+    }
+    else
+      strArray[i]=strArray[i].toLowerCase();
+}
+console.log(strArray);
+}
 
-processArray([1,2,3,4,5,6,7,8,9,10]);//Passing an array ofnumbers
 
-console.log(numbs);
+
+
 
