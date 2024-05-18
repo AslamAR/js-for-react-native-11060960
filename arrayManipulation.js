@@ -10,7 +10,7 @@ function processArray(nums) {
     }
 }
 
-function formatArrayStrings(strArray,numbs){
+function formatArrayStrings(stringArray,numbs){
 for(i =0 ;i<strArray.length;i++){
     if(numbs[i]%2 === 0){
         strArray[i]=strArray[i].toUpperCase();
