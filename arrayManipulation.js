@@ -11,14 +11,14 @@ function processArray(nums) {
 }
 
 function formatArrayStrings(stringArray,numbs){
-for(i =0 ;i<strArray.length;i++){
+for(i =0 ;i<stringArray.length;i++){
     if(numbs[i]%2 === 0){
-        strArray[i]=strArray[i].toUpperCase();
+        stringArray[i]=stringArray[i].toUpperCase();
     }
     else
-      strArray[i]=strArray[i].toLowerCase();
+      stringArray[i]=stringArray[i].toLowerCase();
 }
-console.log(strArray);
+console.log(stringArray);
 }
 
 
